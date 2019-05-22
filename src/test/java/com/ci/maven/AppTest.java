@@ -11,15 +11,15 @@ public class AppTest extends TestCase {
     }
 
     public static Test suite() {
-        return new TestSuite( AppTest.class );
+        return new TestSuite(AppTest.class);
     }
 
     public void testApp() {
-        assertTrue( true );
+        assertTrue(true);
     }
 
     @org.junit.Test
-    void checkBissextile(){
+    void checkBissextile() {
         assertEquals("not", App.estBissextile(2010));
     }
 }
